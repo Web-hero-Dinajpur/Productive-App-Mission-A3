@@ -1,12 +1,14 @@
 import React from 'react';
-
+import mainLogo from '../../../assets/logo.png'
+import { FaGithub } from 'react-icons/fa';
 const Navbar = () => {
     const Link = <>
         <li><a>Home</a></li>
         <li><a>App</a></li>
+        <li><a>Installation</a></li>
     </>
     return (
-        <div className="navbar bg-base-100 shadow-sm">
+        <div className="navbar bg-base-100 shadow-sm px-20">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -18,7 +20,9 @@ const Navbar = () => {
                         {Link}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">daisyUI</a>
+                <a className="flex items-center gap-2 font-semibold text-[#7039e6] pointer-coarse">
+                    <img className='w-10' src={mainLogo} alt="" />
+                    HERO.IO</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -26,7 +30,9 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Button</a>
+                <a className="btn bg-gradient-to-r from-[rgb(124,58,237)] to-[rgb(99,102,241)] text-white border-none">
+                    <FaGithub />
+                    Contribute</a>
             </div>
         </div>
     );
