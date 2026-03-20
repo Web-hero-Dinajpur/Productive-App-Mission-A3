@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "title": "EcoTrack",
+    "companyName": "GreenSphere Tech",
+    "image": "https://picsum.photos/seed/app1/200",
+    "description": "Track your daily carbon footprint and get tips to live sustainably.",
+    "size": 45.2,
+    "reviews": 1240,
+    "ratingAvg": 4.5,
+    "downloads": 50000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 700 }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "FocusFlow",
+    "companyName": "Zenith Labs",
+    "image": "https://picsum.photos/seed/app2/200",
+    "description": "A minimalist Pomodoro timer with ambient soundscapes.",
+    "size": 12.8,
+    "reviews": 890,
+    "ratingAvg": 4.8,
+    "downloads": 25000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 65 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 600 }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "PixelEdit Pro",
+    "companyName": "CreativeCanvas",
+    "image": "https://picsum.photos/seed/app3/200",
+    "description": "Advanced mobile photo editing with AI-powered filters.",
+    "size": 156.4,
+    "reviews": 5400,
+    "ratingAvg": 4.2,
+    "downloads": 100000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 2500 }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "SwiftBudget",
+    "companyName": "PennyWise Finance",
+    "image": "https://picsum.photos/seed/app4/200",
+    "description": "Manage your expenses and sync with your bank accounts securely.",
+    "size": 32.1,
+    "reviews": 2100,
+    "ratingAvg": 3.9,
+    "downloads": 75000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 350 },
+      { "name": "3 star", "count": 450 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 500 }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "LinguaLeap",
+    "companyName": "GlobalTongue",
+    "image": "https://picsum.photos/seed/app5/200",
+    "description": "Master 30+ languages through interactive gamified lessons.",
+    "size": 88.5,
+    "reviews": 15300,
+    "ratingAvg": 4.7,
+    "downloads": 1000000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 10000 }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "FitPulse",
+    "companyName": "IronBody Dynamics",
+    "image": "https://picsum.photos/seed/app6/200",
+    "description": "Personalized HIIT workouts and calorie tracking.",
+    "size": 64.0,
+    "reviews": 4200,
+    "ratingAvg": 4.4,
+    "downloads": 200000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 2000 }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "NightSky Guide",
+    "companyName": "AstroLens",
+    "image": "https://picsum.photos/seed/app7/200",
+    "description": "Point your phone at the sky to identify stars and planets.",
+    "size": 112.0,
+    "reviews": 3100,
+    "ratingAvg": 4.6,
+    "downloads": 85000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 1500 }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "RecipeRover",
+    "companyName": "KitchenQuest",
+    "image": "https://picsum.photos/seed/app8/200",
+    "description": "Find recipes based on the ingredients you already have.",
+    "size": 28.7,
+    "reviews": 1800,
+    "ratingAvg": 4.1,
+    "downloads": 40000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 600 }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "CodeCraft",
+    "companyName": "DevNexus",
+    "image": "https://picsum.photos/seed/app9/200",
+    "description": "Write and compile code on the go with support for 20+ languages.",
+    "size": 55.3,
+    "reviews": 950,
+    "ratingAvg": 4.3,
+    "downloads": 15000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 400 }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "SleepSage",
+    "companyName": "DreamWell",
+    "image": "https://picsum.photos/seed/app10/200",
+    "description": "Smart alarm clock and sleep cycle analyzer.",
+    "size": 41.9,
+    "reviews": 6700,
+    "ratingAvg": 4.0,
+    "downloads": 300000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 2200 }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "TrailBlazer",
+    "companyName": "OutdoorIQ",
+    "image": "https://picsum.photos/seed/app11/200",
+    "description": "Offline maps and GPS for hikers and mountain bikers.",
+    "size": 210.5,
+    "reviews": 2800,
+    "ratingAvg": 4.7,
+    "downloads": 120000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1600 }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "NoteKeep",
+    "companyName": "SyncNote",
+    "image": "https://picsum.photos/seed/app12/200",
+    "description": "Organize your thoughts with cross-platform note-syncing.",
+    "size": 18.2,
+    "reviews": 4500,
+    "ratingAvg": 4.3,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 1600 }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "PetPals",
+    "companyName": "VetConnect",
+    "image": "https://picsum.photos/seed/app13/200",
+    "description": "A social network for pet owners and local vet bookings.",
+    "size": 47.8,
+    "reviews": 1100,
+    "ratingAvg": 4.2,
+    "downloads": 35000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 400 }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "CryptoView",
+    "companyName": "BlockChain Ledger",
+    "image": "https://picsum.photos/seed/app14/200",
+    "description": "Real-time cryptocurrency prices and portfolio alerts.",
+    "size": 24.5,
+    "reviews": 3200,
+    "ratingAvg": 3.8,
+    "downloads": 150000,
+    "ratings": [
+      { "name": "1 star", "count": 450 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 750 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 700 }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "QuickScan",
+    "companyName": "DocuDigital",
+    "image": "https://picsum.photos/seed/app15/200",
+    "description": "Turn your camera into a high-quality PDF scanner.",
+    "size": 38.9,
+    "reviews": 9800,
+    "ratingAvg": 4.6,
+    "downloads": 800000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 5000 }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "MindMatters",
+    "companyName": "Serene Minds",
+    "image": "https://picsum.photos/seed/app16/200",
+    "description": "Daily meditation and mental health journaling.",
+    "size": 52.1,
+    "reviews": 2400,
+    "ratingAvg": 4.8,
+    "downloads": 60000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1600 }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "VinylVibe",
+    "companyName": "RetroAudio",
+    "image": "https://picsum.photos/seed/app17/200",
+    "description": "High-fidelity music streaming for audiophiles.",
+    "size": 73.4,
+    "reviews": 1500,
+    "ratingAvg": 4.3,
+    "downloads": 20000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 700 }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "WeatherWise",
+    "companyName": "MeteoGroup",
+    "image": "https://picsum.photos/seed/app18/200",
+    "description": "Hyper-local weather forecasts with radar maps.",
+    "size": 29.3,
+    "reviews": 12000,
+    "ratingAvg": 4.1,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1300 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 4000 }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "UrbanEat",
+    "companyName": "CityBite",
+    "image": "https://picsum.photos/seed/app19/200",
+    "description": "Discover hidden local food gems in your city.",
+    "size": 46.7,
+    "reviews": 3100,
+    "ratingAvg": 4.5,
+    "downloads": 90000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 450 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1600 }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "TaskMaster",
+    "companyName": "Efficiency Experts",
+    "image": "https://picsum.photos/seed/app20/200",
+    "description": "The ultimate team collaboration and task management tool.",
+    "size": 58.2,
+    "reviews": 7400,
+    "ratingAvg": 4.4,
+    "downloads": 450000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 3000 }
+    ]
+  }
+]

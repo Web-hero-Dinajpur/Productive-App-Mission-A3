@@ -1,9 +1,10 @@
 import React from 'react';
 import mainLogo from '../../../assets/logo.png'
 import { FaGithub } from 'react-icons/fa';
+import { Link } from 'react-router';
 const Navbar = () => {
-    const Link = <>
-        <li><a>Home</a></li>
+    const navLink = <>
+        <Link to='/'><li><a>Home</a></li></Link>
         <li><a>App</a></li>
         <li><a>Installation</a></li>
     </>
@@ -17,7 +18,7 @@ const Navbar = () => {
                     <ul
                         tabIndex="-1"
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                        {Link}
+                        {navLink}
                     </ul>
                 </div>
                 <a className="flex items-center gap-2 font-semibold text-[#7039e6] pointer-coarse">
@@ -26,7 +27,7 @@ const Navbar = () => {
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                    {Link}
+                    {navLink}
                 </ul>
             </div>
             <div className="navbar-end">

@@ -1,7 +1,8 @@
 import { createBrowserRouter } from 'react-router'
 import Root from '../Root/Root'
 import ErrorPage from '../Components/ErrorPages/ErrorPage'
-import TopBannar from '../Components/Pages/TopBannar/TopBannar'
+import Home from '../Components/Pages/Home/Home'
+
 
 export const router = createBrowserRouter([
   {
@@ -11,7 +12,8 @@ export const router = createBrowserRouter([
     children: [
       {
         index: true,
-        Component: TopBannar,
+        loader:()=>fetch('./AppsData.json'),
+        Component: Home,
       },
     ],
   },
