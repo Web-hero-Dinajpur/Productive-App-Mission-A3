@@ -2,22 +2,26 @@ import React from 'react';
 import { FaRegStarHalfStroke } from 'react-icons/fa6';
 import { LuDownload } from 'react-icons/lu';
 
-const App = () => {
+const App = ({ app }) => {
+    const { companyName, image, downloads, ratings } = app;
     return (
         <div className="card bg-base-100 shadow-sm">
             <figure>
-                <img
-                    src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                    alt="Shoes" />
+                <img className='p-4 md:h-60 w-full'
+                    src={image}
+                    alt="" />
             </figure>
             <div className="card-body">
-                <h2 className="card-title">
-                    bangladesh main title
-                   
+                <h2 className="card-title text-4xl mb-4">
+                    {companyName}
                 </h2>
                 <div className="card-actions justify-between">
-                    <div className="badge badge-outline"> <LuDownload />Fashion</div>
-                    <div className="badge badge-outline"><FaRegStarHalfStroke />Products</div>
+                    <div className="badge text-green-400"> <LuDownload />{downloads}</div>
+                    <div className="badge ">
+                        {
+                            ratings.map(name => <FaRegStarHalfStroke name={name} className='text-yellow-500' />)
+                        }
+                    </div>
                 </div>
             </div>
         </div>
