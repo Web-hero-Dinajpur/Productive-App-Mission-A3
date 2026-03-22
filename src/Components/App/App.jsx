@@ -1,11 +1,13 @@
 import React from 'react';
 import { FaRegStarHalfStroke } from 'react-icons/fa6';
 import { LuDownload } from 'react-icons/lu';
+import { useNavigate } from 'react-router';
 
 const App = ({ app }) => {
-    const { companyName, image, downloads, ratings } = app;
+    const navigate = useNavigate();
+    const { companyName, image, downloads, ratings, id } = app;
     return (
-        <div className="card bg-base-100 shadow-sm">
+        <div onClick={() => navigate(`/appdetails/${id}`)} className="card bg-base-100 shadow-sm">
             <figure>
                 <img className='p-4 md:h-60 w-full'
                     src={image}
