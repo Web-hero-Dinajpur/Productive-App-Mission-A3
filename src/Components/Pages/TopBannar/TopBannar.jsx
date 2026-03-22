@@ -10,7 +10,7 @@ const TopBannar = () => {
                 <div className='text-center'>
                     <h2 className='text-6xl font-semibold md:w-[521px] mx-auto'>We Build
                         <span className='text-purple-500'> Productive</span> Apps</h2>
-                    <p className='my-4 mx-auto text-gray-800'>At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
+                    <p className='my-4 mx-auto'>At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
                     <div className='md:flex items-center justify-center gap-4'>
                         <button className="btn bg-gray-200 text-black font-bold"> <IoLogoGooglePlaystore className='text-[#47bcff] text-2xl' /> Google Play</button>
                         <button className="btn bg-gray-200 text-black font-bold"> <FaAppStoreIos className='text-[#007bf6] text-2xl' /> App Store</button>
